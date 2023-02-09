@@ -1,16 +1,18 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../components/Navbar'
+import Main from '../components/Main'
+
 
 const Home: NextPage = () => {
   return (
     <div >
       <Head>
-        <title>Bravas Digital</title>
+        <title>Create Next</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
+      <Main/>
     </div>
   )
 }
